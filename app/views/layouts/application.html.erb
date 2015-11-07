@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Homepage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <title>Samira Chaychi Resume / CV </title>
+
+<!-- Favicon and Touch Icons
+  ========================================================= -->
+  <link rel="shortcut icon" href="/img/favicon-vertica.ico" type="image/x-icon">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  
+  
+<!-- ============================================= -->
+
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  
   <%= csrf_meta_tags %>
 </head>
-<body>
 
+<body data-spy="scroll" data-target="#side-menu">
 <%= yield %>
-
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>

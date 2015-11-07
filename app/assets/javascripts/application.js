@@ -1,16 +1,19 @@
-// This is a manifest file that'll be compiled into application.js, which will include all the files
-// listed below.
-//
-// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-// or any plugin's vendor/assets/javascripts directory can be referenced here using a relative path.
-//
-// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-// compiled file.
-//
-// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
-// about supported directives.
-//
+
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
+//= require vendor/jquery.validate.min.js
+//= require bootstrap-sprockets
+//= require jquery.min.js
+// require vendor/bootstrap.min.js
+//= require jquery.easing.min.js
+//= require vendor/jquery.mousewheel.min.js
+//= require vendor/jquery.nicescroll.min.js
+//= require vendor/jquery.nicescroll.plus.js
+//= require vendor/waypoints.min.js
+//= require vendor/nivo-lightbox.min.js
+//= require vendor/jquery.bxslider.min.js
+//= require vendor/placeholders.jquery.min.js
+//= require cross-browser.js
+//= require main.js
+// require jquery_ujs
+// require turbolinks
 //= require_tree .
